@@ -7,290 +7,682 @@
 
 /* all style */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    /* border: 3px solid red; */
-  }
-  /* body{
-    border: 14px dashed green;
-  } */
-  .container {
-    width: 100%;
-    background-color: rgb(31, 29, 32);
-  }
-  
-  /* navBar style here */
-  .head {
-    min-height: 39.7rem;
-  }
-  .nav {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  /* border: 3px solid red; */
+}
+/* body{
+  border: 14px dashed green;
+} */
+.container {
+  width: 100%;
+  background-color: rgb(31, 29, 32);
+}
+
+/* navBar style here */
+.head {
+  min-height: 39.7rem;
+}
+.nav {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navLogo > h2 {
+  color: rgb(230, 83, 60);
+  font-family: Inter;
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 80%;
+}
+.navMenu > ul {
+  display: flex;
+  list-style: none;
+  gap: 1.6rem;
+}
+.navMenu > ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.navMenu > ul > li > .active {
+  border-radius: 46px;
+  background: rgb(230, 83, 60);
+  padding: 8px 20px;
+}
+.mobileIcon i {
+  display: none;
+}
+/* header artical */
+.headContaint {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 25rem;
+}
+.headArticle {
+  width: 60%;
+}
+.headArticle h3 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 4rem;
+  font-weight: 900;
+}
+.headArticle p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  text-align: left;
+}
+.headBtn {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  /* margin-bottom: 1rem; */
+}
+.headBtn1,
+.exp {
+  background: rgb(230, 83, 60);
+  border-radius: 2.5rem;
+  padding: 1rem 2.3rem;
+  color: rgba(255, 255, 255, 0.7);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.headBtn2 {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+}
+.headArticle h3 span {
+  font-family: "Satisfy", cursive;
+}
+/* article Img section */
+.articleImg {
+  width: 40%;
+  position: relative;
+}
+.articlePic {
+  width: 17rem;
+  height: auto;
+}
+.articlePic img {
+  width: 100%;
+  height: 30.3rem;
+}
+/* head Img fast box */
+.headImgBox1 {
+  width: 206px;
+  height: 96px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(1) brightness(50%) contrast(150%);
+  background: rgba(48, 48, 48, 0.54);
+  position: absolute;
+  top: 20rem;
+  left: -6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.24rem;
+}
+.circel {
+  width: 2.5rem;
+  height: 2.5rem;
+  background: rgb(230, 83, 60);
+  border-radius: 100%;
+  margin-left: 2rem;
+  position: relative;
+  cursor: pointer;
+}
+.circel i {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 12px;
+  left: 13px;
+}
+.headImgTxt {
+  margin: 0 auto;
+}
+.headImgTxt h3,
+.box2h3 {
+  color: rgb(250, 250, 249);
+  font-family: Inter;
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+.headImgTxt p,
+.boxp {
+  color: rgba(239, 237, 232, 0.65);
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.headImgBox2 {
+  top: 5rem;
+  left: 10rem;
+  flex-direction: column;
+  align-items: start;
+  gap: 1px;
+}
+/* main part design start */
+.mainPart {
+  width: 100%;
+  min-height: 70rem;
+  background-color: rgba(0, 0, 0, 1);
+}
+/* habits section */
+.habit {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding-top: 5rem;
+}
+.habitText h3 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 900;
+}
+.habitImg {
+  margin-top: 5rem;
+  display: flex;
+}
+.habitText p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.4rem;
+  letter-spacing: 0.8px;
+}
+.habitImgContainer {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+.habitImg .firstImg img {
+  border-radius: 50%;
+}
+.firstImg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.firstImg img {
+  width: 12rem;
+  margin-bottom: 1rem;
+}
+.firstImgText h4 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 1.4rem;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.2rem;
+  letter-spacing: 0.3px;
+}
+.firstImgText p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.3rem;
+  letter-spacing: 0.3px;
+  text-align: center;
+  margin-top: 0.7rem;
+}
+/* Run an Extra start */
+.runAnExtra {
+  width: 80%;
+  height: 320px;
+  margin: 0 auto;
+  border-radius: 18px;
+  background: rgb(81, 79, 79);
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.runAnText {
+  width: 60%;
+  margin-left: 2rem;
+  padding-top: 1rem;
+  margin-bottom: 2rem;
+}
+.runAnExtra > .runAnText > h3 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-align: left;
+}
+.runAnExtra > .runAnText > p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+  letter-spacing: 0.3px;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.runAnExtra > .runAnText > button {
+  width: 20rem;
+}
+.runAnImg {
+  width: 40%;
+  height: auto;
+}
+.runAnImg img {
+  width: 90%;
+  height: auto;
+  border-radius: 2rem;
+}
+/* BMI Design Start */
+.bmi {
+  width: 100%;
+  min-height: 450px;
+  margin-top: 10rem;
+}
+.bmiText {
+  width: 60%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  margin-bottom: 5rem;
+}
+.bmiChartContainer {
+  width: 100%;
+  height: 500px;
+  background: rgb(34, 34, 34);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.bmiText h3 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 120%;
+  padding-bottom: 0.2rem;
+  text-align: left;
+}
+.bmiText p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 0.3px;
+  text-align: left;
+}
+.bmiChart h4,
+.bmiFrom .bmiFromTxt h4 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 1.4rem;
+  line-height: 120%;
+  font-weight: 900;
+  letter-spacing: 0%;
+  text-align: left;
+}
+/* table */
+.tb {
+  margin-top: 3rem;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table,
+th,
+td {
+  border: 1px solid rgb(235, 235, 235);
+  color: rgb(255, 255, 255);
+}
+th,
+td {
+  padding: 0.9rem;
+  text-align: center;
+}
+.bmiFrom .bmiFromTxt p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.3rem;
+  letter-spacing: 0.3px;
+  text-align: left;
+}
+.fromSelect {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.firstInput {
+  display: flex;
+  gap: 1rem;
+}
+.fromSelect .firstInput input,
+select,
+.input,
+.select {
+  width: 282.2px;
+  height: 48px;
+  padding-left: 1rem;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: rgb(218, 218, 218);
+  outline: none;
+  border: none;
+  margin-bottom: 1rem;
+}
+.fromSelect .firstInput select {
+  padding-right: 1rem;
+}
+.fromSelect .firstInput select option, .slecBac {
+  color: rgb(218, 218, 218);
+  background: rgb(61, 61, 61);
+}
+.secondInput {
+  position: relative;
+}
+.secondInput i {
+  position: absolute;
+  top: 0.9rem;
+  right: 2rem;
+  color: rgb(176, 176, 176);
+  cursor: pointer;
+}
+.fromSelect .thirdInput input {
+  width: 580.4px;
+}
+.thirdInput {
+  position: relative;
+}
+.fromSelect .thirdInput i {
+  position: absolute;
+  right: 13.5rem;
+  top: 0.9rem;
+  color: rgb(176, 176, 176);
+  cursor: pointer;
+}
+.bmiBtn {
+  width: 224px;
+}
+/* meet team design */
+.meetTeam {
     width: 80%;
-    margin: 0 auto;
-    padding-top: 2rem;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    margin: 0 auto;
+    margin-top: 7rem;
+    flex-direction: column;
   }
-  .navLogo > h2 {
-    color: rgb(230, 83, 60);
+  .meetTeam .meetTeamTxt {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .meetTeam .meetTeamTxt h3 {
+    color: rgb(255, 255, 255);
     font-family: Inter;
     font-size: 3rem;
-    font-weight: 800;
-    line-height: 80%;
-  }
-  .navMenu > ul {
-    display: flex;
-    list-style: none;
-    gap: 1.6rem;
-  }
-  .navMenu > ul li a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-family: Inter;
-    font-size: 1rem;
-    font-weight: 400;
-  }
-  .navMenu > ul > li > .active {
-    border-radius: 46px;
-    background: rgb(230, 83, 60);
-    padding: 8px 20px;
-  }
-  .mobileIcon i {
-    display: none;
-  }
-  /* header artical */
-  .headContaint {
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 5rem;
-    display: flex;
-    justify-content: space-between;
-    gap: 25rem;
-  }
-  .headArticle {
-    width: 60%;
-  }
-  .headArticle h3 {
-    color: rgb(255, 255, 255);
-    font-family: Inter;
-    font-size: 4rem;
     font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
   }
-  .headArticle p {
-    color: rgba(255, 255, 255, 0.5);
+  .meetTeam .meetTeamTxt p {
+    color: rgba(182, 182, 182, 0.5);
     font-family: Inter;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 400;
+    padding-top: 0.6rem;
     line-height: 1.6rem;
-    text-align: left;
+    letter-spacing: 0.3px;
+    text-align: center;
   }
-  .headBtn {
+  .meetTeamImg {
     width: 100%;
+    height: 530px;
+    margin: 0 auto;
+    padding: 2rem 2.5rem;
+    border-radius: 1.2rem;
+    background: rgba(255, 255, 255, 0.1);
     margin-top: 2rem;
-    display: flex;
-    gap: 1rem;
-    /* margin-bottom: 1rem; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 1.5rem;
   }
-  .headBtn1,
-  .exp {
-    background: rgb(230, 83, 60);
-    border-radius: 2.5rem;
-    padding: 1rem 2.3rem;
-    color: rgba(255, 255, 255, 0.7);
-    border: none;
-    outline: none;
-    cursor: pointer;
+  /* .firstPic{
+    box-shadow: 10px 10px 5px 10px gray;
+  } */
+  .firstPic img {
+    width: 300px;
+    height: 230px;
+    border-radius: 0.8rem;
   }
-  .headBtn2 {
-    background: transparent;
-    border: 1px solid rgba(255, 255, 255, 0.8);
+  .firstPic1 {
+    width: 300px;
+    height: 230px;
+    background-color: rgba(0, 0, 0, 0.435);
+    background-image: url("../B10A2-versatile-ui/images/trainer1.png");
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.7rem;
   }
-  .headArticle h3 span {
-    font-family: "Satisfy", cursive;
+  .firstPic2 {
+    width: 300px;
+    height: 230px;
+    background-color: rgba(0, 0, 0, 0.435);
+    background-image: url("../B10A2-versatile-ui/images/trainer2.png");
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.7rem;
   }
-  /* article Img section */
-  .articleImg {
-    width: 40%;
+  .firstPic3 {
+    width: 300px;
+    height: 230px;
+    background-color: rgba(0, 0, 0, 0.435);
+    background-image: url("../B10A2-versatile-ui/images/trainer3.png");
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.7rem;
+  }
+  .firstPic4 {
+    width: 300px;
+    height: 230px;
+    background-color: rgba(0, 0, 0, 0.435);
+    background-image: url("../B10A2-versatile-ui/images/trainer4.png");
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.7rem;
+  }
+  .firstPic5 {
+    width: 300px;
+    height: 230px;
+    background-color: rgba(0, 0, 0, 0.435);
+    background-image: url("../B10A2-versatile-ui/images/trainer5.png");
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.7rem;
+  }
+  .firstPic6 {
+    width: 300px;
+    height: 230px;
+    background-color: rgba(0, 0, 0, 0.435);
+    background-image: url("../B10A2-versatile-ui/images/trainer6.png");
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.7rem;
+  }
+  .firstImgTxt h4 {
+    color: rgb(255, 255, 255);
+  }
+  .firstImgTxt p {
+    color: rgb(177, 177, 177);
+  }
+  .firstPicDgn {
     position: relative;
   }
-  .articlePic {
-    width: 17rem;
-    height: auto;
-  }
-  .articlePic img {
-    width: 100%;
-    height: 30.3rem;
-  }
-  /* head Img fast box */
-  .headImgBox1 {
-    width: 206px;
-    height: 96px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 12px;
-    backdrop-filter: blur(1) brightness(50%) contrast(150%);
-    background: rgba(48, 48, 48, 0.54);
+  .firstImgTxt {
     position: absolute;
-    top: 20rem;
-    left: -6rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.24rem;
+    top: 11rem;
+    left: 1rem;
   }
-
-
-
-
-
-
-
-
-
-
-  .headImgTxt {
+  /* footer design start */
+  .footer {
+    width: 100%;
+    height: 360px;
+    background-color: rgba(28, 28, 28, 0.942);
+    padding-top: 5rem;
+  }
+  .footerContainer {
+    width: 80%;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
   }
-  .headImgTxt h3,
-  .box2h3 {
-    color: rgb(250, 250, 249);
+  .footerLeft {
+    width: 40%;
+  }
+  .footerLeft p {
+    color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
-    font-size: 1.4rem;
-    font-weight: 900;
+    padding-top: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    line-height: 1.4rem;
+    text-align: left;
   }
-  .headImgTxt p,
-  .boxp {
-    color: rgba(239, 237, 232, 0.65);
+  .footerMid h5 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: left;
+  }
+  .footerMid p {
+    color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
     font-size: 1rem;
     font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 0.5rem;
+    cursor: pointer;
   }
-  .headImgBox2 {
-    top: 5rem;
-    left: 10rem;
-    flex-direction: column;
-    align-items: start;
-    gap: 1px;
-  }
-  /* main part design start */
-  .mainPart {
-    width: 100%;
-    min-height: 70rem;
-    background-color: rgba(0, 0, 0, 1);
-  }
-  /* habits section */
-  .habit {
+  .hr {
     width: 80%;
-    display: flex;
-    flex-direction: column;
     margin: 0 auto;
-    padding-top: 5rem;
-  }
-  .habitText h3 {
-    color: rgb(255, 255, 255);
-    font-family: Inter;
-    font-size: 3rem;
-    text-align: center;
-    font-weight: 900;
-  }
-  .habitImg {
     margin-top: 5rem;
-    display: flex;
+    border: 2px solid rgba(255, 255, 255, 0.1);
   }
-  .habitText p {
-    color: rgba(255, 255, 255, 0.5);
-    font-family: Inter;
-    margin-top: 1rem;
-    font-size: 1.2rem;
-    text-align: center;
-    font-weight: 400;
-    line-height: 1.4rem;
-    letter-spacing: 0.8px;
-  }
-  .habitImgContainer {
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    gap: 5rem;
-  }
-  .habitImg .firstImg img {
-    border-radius: 50%;
-  }
-  .firstImg {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .firstImg img {
-    width: 12rem;
-    margin-bottom: 1rem;
-  }
-  .firstImgText h4 {
-    color: rgb(255, 255, 255);
-    font-family: Inter;
-    font-size: 1.4rem;
-    text-align: center;
-    font-weight: 400;
-    line-height: 1.2rem;
-    letter-spacing: 0.3px;
-  }
-  .firstImgText p {
+  .cartesy {
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
     font-size: 0.9rem;
     font-weight: 400;
-    line-height: 1.3rem;
+    line-height: 24px;
     letter-spacing: 0.3px;
     text-align: center;
-    margin-top: 0.7rem;
+    padding-top: 0.9rem;
   }
-  /* Run an Extra start */
-  .runAnExtra {
-    width: 80%;
-    height: 320px;
-    margin: 0 auto;
-    border-radius: 18px;
-    background: rgb(81, 79, 79);
-    margin-top: 10rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .runAnText {
-    width: 60%;
-    margin-left: 2rem;
-    padding-top: 1rem;
-    margin-bottom: 2rem;
-  }
-  .runAnExtra > .runAnText > h3 {
-    color: rgb(255, 255, 255);
-    font-family: Inter;
-    font-size: 2.5rem;
-    font-weight: 900;
-    text-align: left;
-  }
-  .runAnExtra > .runAnText > p {
-    color: rgba(255, 255, 255, 0.5);
-    font-family: Inter;
-    font-size: 1.2rem;
-    font-weight: 400;
-    line-height: 1.8rem;
-    letter-spacing: 0.3px;
-    text-align: left;
-    margin-bottom: 1rem;
-  }
-  .runAnExtra > .runAnText > button {
-    width: 20rem;
-  }
-  .runAnImg {
-    width: 40%;
-    height: auto;
-  }
-  .runAnImg img {
-    width: 90%;
-    height: auto;
-    border-radius: 2rem;
+  /* footer design start */
+.footer {
+  width: 100%;
+  height: 360px;
+  background-color: rgba(28, 28, 28, 0.942);
+  padding-top: 5rem;
+}
+.footerContainer {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footerLeft {
+  width: 40%;
+}
+.footerLeft p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  padding-top: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  line-height: 1.4rem;
+  text-align: left;
+}
+.footerMid h5 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 120%;
+  text-align: left;
+}
+.footerMid p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-top: 0.5rem;
+  cursor: pointer;
+}
+.hr {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5rem;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.cartesy {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: center;
+  padding-top: 0.9rem;
+}
