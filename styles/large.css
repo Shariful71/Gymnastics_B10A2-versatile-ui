@@ -435,197 +435,197 @@ select,
 }
 /* meet team design */
 .meetTeam {
-    width: 80%;
-    display: flex;
-    margin: 0 auto;
-    margin-top: 7rem;
-    flex-direction: column;
-  }
-  .meetTeam .meetTeamTxt {
-    width: 60%;
-    margin: 0 auto;
-  }
-  .meetTeam .meetTeamTxt h3 {
-    color: rgb(255, 255, 255);
-    font-family: Inter;
-    font-size: 3rem;
-    font-weight: 900;
-    line-height: 120%;
-    letter-spacing: 0%;
-    text-align: center;
-  }
-  .meetTeam .meetTeamTxt p {
-    color: rgba(182, 182, 182, 0.5);
-    font-family: Inter;
-    font-size: 0.9rem;
-    font-weight: 400;
-    padding-top: 0.6rem;
-    line-height: 1.6rem;
-    letter-spacing: 0.3px;
-    text-align: center;
-  }
-  .meetTeamImg {
-    width: 100%;
-    height: 530px;
-    margin: 0 auto;
-    padding: 2rem 2.5rem;
-    border-radius: 1.2rem;
-    background: rgba(255, 255, 255, 0.1);
-    margin-top: 2rem;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 1.5rem;
-  }
-  /* .firstPic{
-    box-shadow: 10px 10px 5px 10px gray;
-  } */
-  .firstPic img {
-    width: 300px;
-    height: 230px;
-    border-radius: 0.8rem;
-  }
-  .firstPic1 {
-    width: 300px;
-    height: 230px;
-    background-color: rgba(0, 0, 0, 0.435);
-    background-image: url("../B10A2-versatile-ui/images/trainer1.png");
-    background-blend-mode: overlay;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 0.7rem;
-  }
-  .firstPic2 {
-    width: 300px;
-    height: 230px;
-    background-color: rgba(0, 0, 0, 0.435);
-    background-image: url("../B10A2-versatile-ui/images/trainer2.png");
-    background-blend-mode: overlay;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 0.7rem;
-  }
-  .firstPic3 {
-    width: 300px;
-    height: 230px;
-    background-color: rgba(0, 0, 0, 0.435);
-    background-image: url("../B10A2-versatile-ui/images/trainer3.png");
-    background-blend-mode: overlay;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 0.7rem;
-  }
-  .firstPic4 {
-    width: 300px;
-    height: 230px;
-    background-color: rgba(0, 0, 0, 0.435);
-    background-image: url("../B10A2-versatile-ui/images/trainer4.png");
-    background-blend-mode: overlay;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 0.7rem;
-  }
-  .firstPic5 {
-    width: 300px;
-    height: 230px;
-    background-color: rgba(0, 0, 0, 0.435);
-    background-image: url("../B10A2-versatile-ui/images/trainer5.png");
-    background-blend-mode: overlay;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 0.7rem;
-  }
-  .firstPic6 {
-    width: 300px;
-    height: 230px;
-    background-color: rgba(0, 0, 0, 0.435);
-    background-image: url("../B10A2-versatile-ui/images/trainer6.png");
-    background-blend-mode: overlay;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 0.7rem;
-  }
-  .firstImgTxt h4 {
-    color: rgb(255, 255, 255);
-  }
-  .firstImgTxt p {
-    color: rgb(177, 177, 177);
-  }
-  .firstPicDgn {
-    position: relative;
-  }
-  .firstImgTxt {
-    position: absolute;
-    top: 11rem;
-    left: 1rem;
-  }
-  /* footer design start */
-  .footer {
-    width: 100%;
-    height: 360px;
-    background-color: rgba(28, 28, 28, 0.942);
-    padding-top: 5rem;
-  }
-  .footerContainer {
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-  }
-  .footerLeft {
-    width: 40%;
-  }
-  .footerLeft p {
-    color: rgba(255, 255, 255, 0.5);
-    font-family: Inter;
-    padding-top: 0.5rem;
-    font-size: 0.9rem;
-    font-weight: 400;
-    letter-spacing: 0.3px;
-    line-height: 1.4rem;
-    text-align: left;
-  }
-  .footerMid h5 {
-    color: rgb(255, 255, 255);
-    font-family: Inter;
-    font-size: 1.5rem;
-    font-weight: 700;
-    line-height: 120%;
-    text-align: left;
-  }
-  .footerMid p {
-    color: rgba(255, 255, 255, 0.5);
-    font-family: Inter;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 120%;
-    letter-spacing: 0%;
-    text-align: left;
-    padding-top: 0.5rem;
-    cursor: pointer;
-  }
-  .hr {
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 5rem;
-    border: 2px solid rgba(255, 255, 255, 0.1);
-  }
-  .cartesy {
-    color: rgba(255, 255, 255, 0.5);
-    font-family: Inter;
-    font-size: 0.9rem;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.3px;
-    text-align: center;
-    padding-top: 0.9rem;
-  }
-  /* footer design start */
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 7rem;
+  flex-direction: column;
+}
+.meetTeam .meetTeamTxt {
+  width: 60%;
+  margin: 0 auto;
+}
+.meetTeam .meetTeamTxt h3 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.meetTeam .meetTeamTxt p {
+  color: rgba(182, 182, 182, 0.5);
+  font-family: Inter;
+  font-size: 0.9rem;
+  font-weight: 400;
+  padding-top: 0.6rem;
+  line-height: 1.6rem;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+.meetTeamImg {
+  width: 100%;
+  height: 530px;
+  margin: 0 auto;
+  padding: 2rem 2.5rem;
+  border-radius: 1.2rem;
+  background: rgba(255, 255, 255, 0.1);
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 1.5rem;
+}
+/* .firstPic{
+  box-shadow: 10px 10px 5px 10px gray;
+} */
+.firstPic img {
+  width: 300px;
+  height: 230px;
+  border-radius: 0.8rem;
+}
+.firstPic1 {
+  width: 300px;
+  height: 230px;
+  background-color: rgba(0, 0, 0, 0.435);
+  background-image: url("../images/trainer1.png");
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0.7rem;
+}
+.firstPic2 {
+  width: 300px;
+  height: 230px;
+  background-color: rgba(0, 0, 0, 0.435);
+  background-image: url("../images/trainer2.png");
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0.7rem;
+}
+.firstPic3 {
+  width: 300px;
+  height: 230px;
+  background-color: rgba(0, 0, 0, 0.435);
+  background-image: url("../images/trainer3.png");
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0.7rem;
+}
+.firstPic4 {
+  width: 300px;
+  height: 230px;
+  background-color: rgba(0, 0, 0, 0.435);
+  background-image: url("../images/trainer4.png");
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0.7rem;
+}
+.firstPic5 {
+  width: 300px;
+  height: 230px;
+  background-color: rgba(0, 0, 0, 0.435);
+  background-image: url("../images/trainer5.png");
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0.7rem;
+}
+.firstPic6 {
+  width: 300px;
+  height: 230px;
+  background-color: rgba(0, 0, 0, 0.435);
+  background-image: url("../images/trainer6.png");
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0.7rem;
+}
+.firstImgTxt h4 {
+  color: rgb(255, 255, 255);
+}
+.firstImgTxt p {
+  color: rgb(177, 177, 177);
+}
+.firstPicDgn {
+  position: relative;
+}
+.firstImgTxt {
+  position: absolute;
+  top: 11rem;
+  left: 1rem;
+}
+/* footer design start */
+.footer {
+  width: 100%;
+  height: 360px;
+  background-color: rgba(28, 28, 28, 0.942);
+  padding-top: 5rem;
+}
+.footerContainer {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footerLeft {
+  width: 40%;
+}
+.footerLeft p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  padding-top: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  line-height: 1.4rem;
+  text-align: left;
+}
+.footerMid h5 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 120%;
+  text-align: left;
+}
+.footerMid p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-top: 0.5rem;
+  cursor: pointer;
+}
+.hr {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5rem;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.cartesy {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: center;
+  padding-top: 0.9rem;
+}
+/* footer design start */
 .footer {
   width: 100%;
   height: 360px;

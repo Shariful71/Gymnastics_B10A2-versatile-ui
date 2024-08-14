@@ -1,0 +1,292 @@
+@media screen and (max-width: 576px) {
+    .nav {
+      width: 100%;
+    }
+    .navMenu .navOption {
+      display: none;
+    }
+    .navLogo > h2 {
+      font-size: 3.4rem;
+      padding-left: 1rem;
+      font-style: italic;
+    }
+    .mobileIcon i {
+      color: #ffff;
+      display: inline;
+      padding-right: 1rem;
+      cursor: pointer;
+    }
+    /* head menu added */
+    .head {
+      width: 100%;
+      max-height: 70rem;
+    }
+    .headArticle {
+      width: 100%;
+      margin: 0;
+    }
+    .headArticle h3 {
+      margin-right: 0;
+      width: 100%;
+      font-size: 3.2rem;
+      display: inline;
+    }
+    .headContaint {
+      flex-direction: column;
+      width: 95%;
+      margin: 1rem;
+      gap: 5rem;
+    }
+    .headBtn {
+      margin-bottom: 0;
+    }
+    .headArticle p {
+      margin-right: 2rem;
+    }
+    .headArticle {
+      width: 100%;
+    }
+    .headBtn {
+      width: 100%;
+    }
+    .articleImg {
+      width: 100%;
+      margin-bottom: 0;
+    }
+    .articleImg img {
+      width: 100%;
+      height: 100%;
+    }
+    .headImgBox11 {
+      left: -1rem;
+      top: 18rem;
+      width: 190px;
+      height: 96px;
+    }
+    .headImgBox12 {
+      top: 4rem;
+      left: 11rem;
+      width: 190px;
+      height: 96px;
+    }
+    /* main part strat */
+    .mainPart {
+      width: 100%;
+      height: auto;
+      margin-top: -1.2rem;
+    }
+    /* habit part */
+    .habitText h3 {
+      font-size: 1.8rem;
+    }
+    .habitText p {
+      font-size: 1rem;
+      text-align: center;
+    }
+    .habitImgContainer {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+    }
+    /* Run Extra */
+    .runAnExtra {
+      width: 90%;
+      height: auto;
+      flex-direction: column;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+    .runAnText {
+      width: 90%;
+      margin-left: 0;
+    }
+    .runAnExtra > .runAnText > h3 {
+      font-size: 2.4rem;
+      padding: 1rem;
+      /* width: 70%; */
+    }
+    .runAnExtra > .runAnText > p {
+      padding: 1rem;
+    }
+    .runAnExtra > .runAnText > button {
+      width: 100%;
+      height: 4rem;
+      /* margin: 0 auto; */
+    }
+    .runAnImg {
+      width: 100%;
+      display: flex;
+    }
+    .runAnImg img {
+      width: 90%;
+      margin: 0 auto;
+    }
+    /* BMI From design */
+    .bmiChartContainer {
+      flex-direction: column;
+      width: 100%;
+      height: 46rem;
+      padding-top: 1rem;
+      margin: 0 auto;
+    }
+    .fromSelect .firstInput input, .slcc {
+      width: 175px;
+    }
+    .fromSelect .thirdInput input {
+      width: 366px;
+    }
+    .bmi{
+      height: auto;
+    }
+    .bmiText{
+      width: 90%;
+    }
+    .bmiChart{
+      width: 90%;
+    }
+    .bmiFrom {
+      width: 90%;
+      margin-left: 1rem;
+      margin-top: 2rem;
+    }
+    .secondInput i {
+      right: 20px;
+    }
+    .aasss{
+      text-align: left;
+    }
+    .fromSelect .thirdInput i {
+      right: 35px;
+    }
+    .bmiFrom .bmiFromTxt {
+      width: 100%;
+    }
+    .bmiBtn{
+      margin-bottom: 1rem;
+    }
+    /* meet team */
+    .meetTeamImg {
+      grid-template-columns: repeat(1, 1fr);
+      height: auto;
+      /* margin: 0 auto; */
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+    }
+    .meetTeam .meetTeamTxt {
+      width: 100%;
+    }
+    .meetTeam .meetTeamTxt h3 {
+      font-size: 2rem;
+    }
+    .meetTeam .meetTeamTxt p {
+      text-align: justify;
+    }
+    .firstPic img {
+      width: 100%;
+    }
+    .footer {
+      height: 650px;
+    }
+    .footerContainer {
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .footerLeft {
+      width: 100%;
+    }
+    /* uniquee section */
+    .uniquePart {
+      min-height: 2450px;
+    }
+    .uniquePartImg {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1.5rem;
+    }
+    .app{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .appDoctor{
+      width: 90%;
+      margin: 0 auto;
+    }
+    .frm{
+      width: 100%;
+    }
+    .doctor, .doctorTxt, .appDoctor{
+      width: 100%;
+    }
+    .iaa{
+      width: 100%;
+    }
+    .textArea, .btn{
+      width: 100%;
+    }
+    .display_none{
+      display: none;
+    }
+  }
+  /* *{
+    border: 14px solid red;
+  } */
+  
+  @media screen and (max-width: 375px) {
+    header,
+    main,
+    .footer {
+      width: 100%;
+    }
+    .headImgBox12 {
+      top: 4.2rem;
+      left: 9.5rem;
+      width: 180px;
+      height: 80px;
+    }
+    .meetTeamImg{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .firstPicDgn{
+      width: 100%;
+    }
+    .fromSelect .firstInput input, select{
+      width: 150px;
+    }
+    .fromSelect .thirdInput input{
+      width: 320px;
+    }
+    .bmi .bmiText h3{
+      font-size: 1.8rem;
+    }
+    .xyz{
+      width: 250px;
+      background-size: cover;
+    }
+  }
+  
+  @media screen and (max-width: 325px) {
+    .headImgBox12 {
+      top: -2rem;
+      left: 7rem;
+      width: 180px;
+      height: 80px;
+    }
+    .fromSelect .firstInput{
+      flex-direction: column;
+    }
+    .bmiChartContainer{
+      height: auto;
+    }
+    .fromSelect .firstInput input, select{
+      width: 270px;
+    }
+    .fromSelect .thirdInput input{
+      width: 270px;
+    } 
+  }
